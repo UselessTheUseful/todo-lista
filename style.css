@@ -18,10 +18,11 @@ h1 {
 }
 
 #input_side {
-    width: 40%;
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
 }
 
 #form_lable {
@@ -37,7 +38,7 @@ h1 {
 
 button {
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     border-style: solid;
     background-color: royalblue;
     font-size: 25px;
@@ -48,8 +49,9 @@ button:hover {
 }
 
 #list {
-    width: 50%;
+    width: 600px;
     margin: 20px;
+    padding: 0px;
     list-style-type: none;
     border-style: solid;
     border-width: 1px;
@@ -59,10 +61,12 @@ button:hover {
     margin: 10px;
     width: 30px;
     height: 30px;
+    flex: 20%;
 }
 
 li {
     margin: 20px;
+    width: 550px;
 }
 
 .done {

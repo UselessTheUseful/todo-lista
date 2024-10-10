@@ -27,6 +27,7 @@ function add_item() {
         delete_button = document.createElement('button');
         delete_button.type = 'button';
         delete_button.innerHTML = 'Remove';
+        delete_button.style.
         delete_button.addEventListener('click', function() {
             list.removeChild(list_item)
         } );
