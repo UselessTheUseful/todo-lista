@@ -96,6 +96,7 @@ function delete_done() {
     const to_delete = document.querySelectorAll('.done');
     to_delete.forEach(function(value) {
         list.removeChild(value);
+        localStorage.removeItem(value.id);
     });
 }
 
