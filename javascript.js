@@ -3,7 +3,7 @@ const form_input = document.querySelector("#form_input");
 
 document.querySelector('#form_button').addEventListener('click', add_item)          // eventListener for adding to list 
 
-document.querySelector('#remove_completed').addEventListener('click', delete_done)  // eventListener for adding to list 
+document.querySelector('#remove_completed').addEventListener('click', delete_done)  // eventListener for removing completed tasks from list 
 
 document.querySelector('#sort_all').addEventListener('click', sort_all)             //
 document.querySelector('#sort_completed').addEventListener('click', sort_completed) // eventListeners for list sorting
