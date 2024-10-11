@@ -25,6 +25,11 @@ h1 {
     margin-left: 50px;
 }
 
+#list_side {
+    display: flex;
+    flex-direction: column;
+}
+
 #form_lable {
     display: block;
     padding: 20px;
@@ -56,6 +61,23 @@ button:hover {
     list-style-type: none;
     border-style: solid;
     border-width: 1px;
+}
+
+#sorting {
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+}
+
+.sorting_button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#sorting p {
+    margin: 5px;
+    padding: 5px;
 }
 
 .checkbox {

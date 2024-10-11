@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="main">
-        <h1>Ramin To-do lista</h1>
+        <h1>Rami's To-do list</h1>
         <div id="input_side">
             <label id="form_lable">Task name</label>
             <br>
@@ -18,7 +18,15 @@
             <button id='remove_completed' type="button">Remove Completed</button>
         </div>
         
-        <ul id="list"> </ul>
+        <div id="list_side">
+            <ul id="list"> </ul>
+            <div id="sorting">
+                <p>Sort</p>
+                <button id='sort_all' class="sorting_button" type="button">All</button>
+                <button id='sort_completed' class="sorting_button" type="button">Completed</button>
+                <button id='sort_active' class="sorting_button" type="button">Active</button>
+            </div>
+        </div>
     </div>
     <script src="javascript.js"></script>
 </body>
